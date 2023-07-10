@@ -11,24 +11,29 @@
 
         <link rel="stylesheet" href="css/icon-font.css">
 
-        <link rel="stylesheet" href="css/style.comp.css">
+        <link rel="stylesheet" href="css/style.css">
 
         <title>Test-4</title>
     </head>
     <body>
         <div class="container">
             <header class="header">
-                <div class="header__icon">
-                    <ion-icon name="menu-outline" class="header__icon_menu"></ion-icon>
-                </div>
-                <div class="header__portfolio">
-                    <h1 class="header__portfolio-text">
-                        Portfolio
-                    </h1>
-                </div>
-                <div class="header__search">
-                    <input type="text" placeholder="Search" class="header__search-input">
-                    <ion-icon name="search-outline" class="header__search-icon"></ion-icon>
+                <div class="flex-1">
+                    <div class="header__icon">
+                        <ion-icon name="menu-outline" class="header__icon_menu">
+                            <input type="checkbox" class="header__icon-checkbox" id="navi">
+                            
+                            <div class="header__icon-background">&nbsp;</div></ion-icon>
+                    </div>
+                    <div class="header__portfolio">
+                        <h1 class="header__portfolio-text">
+                            Portfolio
+                        </h1>
+                    </div>
+                    <div class="header__search">
+                        <input type="text" placeholder="Search" class="header__search-input">
+                        <ion-icon name="search-outline" class="header__search-icon"></ion-icon>
+                    </div>
                 </div>
                 <div class="header__side">
                     <div class="header__side-icons">
@@ -65,21 +70,23 @@
                             <p class="projects__top--date">July, 2020</p>
                         </div>
                         <div class="projects__total">
-                            <div class="projects__no">
-                                <p class="projects__no-num">45</p>
-                                <p class="projects__no-des">In Progress</p>
-                            </div>
-                            <div class="projects__no">
-                                <p class="projects__no-num">12</p>
-                                <p class="projects__no-des">In Progress</p>
-                            </div>
-                            <div class="projects__no">
-                                <p class="projects__no-num">10</p>
-                                <p class="projects__no-des">Upcoming</p>
-                            </div>
-                            <div class="projects__no">
-                                <p class="projects__no-num">67</p>
-                                <p class="projects__no-des">Total Projects</p>
+                            <div class="flex">
+                                <div class="projects__no">
+                                    <p class="projects__no-num">45</p>
+                                    <p class="projects__no-des">In Progress</p>
+                                </div>
+                                <div class="projects__no">
+                                    <p class="projects__no-num">12</p>
+                                    <p class="projects__no-des">In Progress</p>
+                                </div>
+                                <div class="projects__no">
+                                    <p class="projects__no-num">10</p>
+                                    <p class="projects__no-des">Upcoming</p>
+                                </div>
+                                <div class="projects__no">
+                                    <p class="projects__no-num">67</p>
+                                    <p class="projects__no-des">Total Projects</p>
+                                </div>
                             </div>
                             <div class="projects__listStyle">
                                 <ion-icon class="icon-line" name="menu-outline"></ion-icon>
@@ -98,7 +105,7 @@
                                     <p class="projects__card-name">Web Designing</p>
                                     <p class="projects__card-type">Prototyping</p>
                                 </div>
-                                <div class="projects__card-progress">                                        
+                                <div class="projects__card-progress border">                                        
                                     <p class="projects__card-pro">Progress</p>
                                     <div class="projects__card-probar"><div class="aquaC"></div></div>
                                     <p class="projects__card-per">90%</p>
@@ -182,7 +189,7 @@
                                     <p class="projects__card-name">Web Designing</p>
                                     <p class="projects__card-type">Prototyping</p>
                                 </div>
-                                <div class="projects__card-progress">                                        
+                                <div class="projects__card-progress border">                                        
                                     <p class="projects__card-pro">Progress</p>
                                     <div class="projects__card-probar"><div class="aquaC"></div></div>
                                     <p class="projects__card-per">90%</p>
@@ -331,6 +338,28 @@
                             <div class="clients__info">
                                 <div class="clients__info-top">
                                     <h3 class="clients__name">Ghulam</h3>
+                                    <ion-icon class="icon-star" name="star-outline"></ion-icon>
+                                </div>
+                                <div class="clients__info-msg">Hey tell me about progress of project? Waiting for your response</div>
+                                <div class="clients__info-bot">21 July</div>
+                            </div>
+                        </div>
+                        <div class="clients__msg-box">
+                            <img src="img/profile 1.webp" alt="Client Photo" class="clients__photo">
+                            <div class="clients__info">
+                                <div class="clients__info-top">
+                                    <h3 class="clients__name">David</h3>
+                                    <ion-icon class="icon-star" name="star-outline"></ion-icon>
+                                </div>
+                                <div class="clients__info-msg">Hey tell me about progress of project? Waiting for your response</div>
+                                <div class="clients__info-bot">21 July</div>
+                            </div>
+                        </div>
+                        <div class="clients__msg-box">
+                            <img src="img/profile 1.webp" alt="Client Photo" class="clients__photo">
+                            <div class="clients__info">
+                                <div class="clients__info-top">
+                                    <h3 class="clients__name">David</h3>
                                     <ion-icon class="icon-star" name="star-outline"></ion-icon>
                                 </div>
                                 <div class="clients__info-msg">Hey tell me about progress of project? Waiting for your response</div>
