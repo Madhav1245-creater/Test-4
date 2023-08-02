@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/icon-font.css">
+
+        <link rel="stylesheet" href="css/style.css">
+
+        <title>Test-4</title>
+    </head>
+    <body>
+        <div class="container">
+            <header class="header">
+                <div class="flex-1">
+                    <div class="header__icon">
+                        <ion-icon name="menu-outline" class="header__icon_menu">
+                            <input type="checkbox" class="header__icon-checkbox" id="navi">
+                            
+                            <div class="header__icon-background">&nbsp;</div></ion-icon>
+                    </div>
+                    <div class="header__portfolio">
+                        <h1 class="header__portfolio-text">
+                            Portfolio
+                        </h1>
+                    </div>
+                    <div class="header__search">
+                        <input type="text" placeholder="Search" class="header__search-input">
+                        <ion-icon name="search-outline" class="header__search-icon"></ion-icon>
+                    </div>
+                </div>
+                <div class="header__side">
+                    <div class="header__side-icons">
+                        <div class="header__side-icons-1">
+                            <ion-icon name="add-outline" class="icon-plus"></ion-icon>
+                        </div>
+                        <div class="header__side-icons-2">
+                            <ion-icon name="notifications-outline" class="icon-notify"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="header__side-profile">
+                        <img src="img/profile 1.webp" alt="Profile photo" class="header__side-profile-photo">
+                        <p class="header__side-profile-name">Hira R</p>
+                    </div>
+                </div>
+            </header>
+            
+            <main class="main">
+                <nav class="nav">
+                    <ul class="nav__items">
+                        <li><a href="#" class="active nav__item "><ion-icon class="nav-icon nav-icon-1" name="home-outline"></ion-icon></a></li>
+                        <li><a href="#" class="nav__item"><ion-icon class="nav-icon" name="person-outline"></ion-icon></a></li>
+                        <li><a href="#" class="nav__item"><ion-icon class="nav-icon" name="chatbox-outline"></ion-icon></a></li>
+                        <li><a href="#" class="nav__item"><ion-icon class="nav-icon" name="calendar-outline"></ion-icon></a></li>
+                        <li><a href="#" class="nav__item"><ion-icon class="nav-icon" name="time-outline"></ion-icon></a></li>
+                        <li><a href="#" class="nav__item"><ion-icon class="nav-icon" name="settings-outline"></ion-icon></a></li>
+                    </ul>
+                </nav>
+
+                <section class="projects">
+                    <div class="margin">
+                        <div class="projects__top">
+                            <h2 class="projects__top-title">Projects</h2>
+                            <p class="projects__top--date">July, 2020</p>
+                        </div>
+                        <div class="projects__total">
+                            <div class="flex">
+                                <div class="projects__no">
+                                    <p class="projects__no-num">45</p>
+                                    <p class="projects__no-des">In Progress</p>
+                                </div>
+                                <div class="projects__no">
+                                    <p class="projects__no-num">12</p>
+                                    <p class="projects__no-des">In Progress</p>
+                                </div>
+                                <div class="projects__no">
+                                    <p class="projects__no-num">10</p>
+                                    <p class="projects__no-des">Upcoming</p>
+                                </div>
+                                <div class="projects__no">
+                                    <p class="projects__no-num">67</p>
+                                    <p class="projects__no-des">Total Projects</p>
+                                </div>
+                            </div>
+                            <div class="projects__listStyle">
+                                <ion-icon class="icon-line" name="menu-outline"></ion-icon>
+                                <ion-icon class="icon-list" name="grid-outline"></ion-icon>
+                            </div>
+                        </div>
+                    
+
+                        <div class="projects__cards">
+                            <div class="projects__card card-1">
+                                <div class="projects__card-top">
+                                    <p class="projects__card-date">July 2,2020</p>
+                                    <ion-icon class="icon-card" name="ellipsis-vertical-outline"></ion-icon>
+                                </div>
+                                <div class="projects__card-middle">
+                                    <p class="projects__card-name">Web Designing</p>
+                                    <p class="projects__card-type">Prototyping</p>
+                                </div>
+                                <div class="projects__card-progress border">                                        
+                                    <p class="projects__card-pro">Progress</p>
+                                    <div class="projects__card-probar"><div class="aquaC"></div></div>
+                                    <p class="projects__card-per">90%</p>
+                                </div>
+                                <div class="projects__card-bottom">
+                                    <img src="img/profile 2.webp" alt="Profile Photo" class="projects__card-img-1">
+                                    <img src="img/profile 3.webp" alt="Profile Photo" class="projects__card-img-2">
+                                    <div class="projects__card-add"><ion-icon name="add-outline" class="icon-plus-2"></ion-icon></div>
+                                    <a href="#" class="btn-1">2 Days Left</a>
+                                </div>
+                            </div>
+                            <div class="projects__card card-2">
+                                <div class="projects__card-top">
+                                    <p class="projects__card-date">July 5,2020</p>
+                                    <ion-icon class="icon-card" name="ellipsis-vertical-outline"></ion-icon>
+                                </div>
+                                <div class="projects__card-middle">
+                                    <p class="projects__card-name">Mobile App</p>
+                                    <p class="projects__card-type">Shopping</p>
+                                </div>
+                                <div class="projects__card-progress">                                        
+                                    <p class="projects__card-pro">Progress</p>
+                                    <div class="projects__card-probar"><div class="orangeC"></div></div>
+                                    <p class="projects__card-per">30%</p>
+                                </div>
+                                <div class="projects__card-bottom">
+                                    <img src="img/profile 2.webp" alt="Profile Photo" class="projects__card-img-1">
+                                    <img src="img/profile 3.webp" alt="Profile Photo" class="projects__card-img-2">
+                                    <div class="projects__card-add-2"><ion-icon name="add-outline" class="icon-plus-2"></ion-icon></div>
+                                    <a href="#" class="btn-2">3 week Left</a>
+                                </div>
+                            </div>
+                            <div class="projects__card card-3">
+                                <div class="projects__card-top">
+                                    <p class="projects__card-date">July 10,2020</p>
+                                    <ion-icon class="icon-card" name="ellipsis-vertical-outline"></ion-icon>
+                                </div>
+                                <div class="projects__card-middle">
+                                    <p class="projects__card-name">Dashboard</p>
+                                    <p class="projects__card-type">Medical</p>
+                                </div>
+                                <div class="projects__card-progress">                                        
+                                    <p class="projects__card-pro">Progress</p>
+                                    <div class="projects__card-probar"><div class="greenC"></div></div>
+                                    <p class="projects__card-per">50%</p>
+                                </div>
+                                <div class="projects__card-bottom">
+                                    <img src="img/profile 2.webp" alt="Profile Photo" class="projects__card-img-1">
+                                    <img src="img/profile 3.webp" alt="Profile Photo" class="projects__card-img-2">
+                                    <div class="projects__card-add-3"><ion-icon name="add-outline" class="icon-plus-2"></ion-icon></div>
+                                    <a href="#" class="btn-3">2 week Left</a>
+                                </div>
+                            </div>
+                            <div class="projects__card card-4">
+                                <div class="projects__card-top">
+                                    <p class="projects__card-date">July 15,2020</p>
+                                    <ion-icon class="icon-card" name="ellipsis-vertical-outline"></ion-icon>
+                                </div>
+                                <div class="projects__card-middle">
+                                    <p class="projects__card-name">Web Designing</p>
+                                    <p class="projects__card-type">Wireframing</p>
+                                </div>
+                                <div class="projects__card-progress">                                        
+                                    <p class="projects__card-pro">Progress</p>
+                                    <div class="projects__card-probar"><div class="pinkC"></div></div>
+                                    <p class="projects__card-per">20%</p>
+                                </div>
+                                <div class="projects__card-bottom">
+                                    <img src="img/profile 2.webp" alt="Profile Photo" class="projects__card-img-1">
+                                    <img src="img/profile 3.webp" alt="Profile Photo" class="projects__card-img-2">
+                                    <div class="projects__card-add-4"><ion-icon name="add-outline" class="icon-plus-2"></ion-icon></div>
+                                    <a href="#" class="btn-4">3 week Left</a>
+                                </div>
+                            </div>
+                            <div class="projects__card card-1">
+                                <div class="projects__card-top">
+                                    <p class="projects__card-date">July 2,2020</p>
+                                    <ion-icon class="icon-card" name="ellipsis-vertical-outline"></ion-icon>
+                                </div>
+                                <div class="projects__card-middle">
+                                    <p class="projects__card-name">Web Designing</p>
+                                    <p class="projects__card-type">Prototyping</p>
+                                </div>
+                                <div class="projects__card-progress border">                                        
+                                    <p class="projects__card-pro">Progress</p>
+                                    <div class="projects__card-probar"><div class="aquaC"></div></div>
+                                    <p class="projects__card-per">90%</p>
+                                </div>
+                                <div class="projects__card-bottom">
+                                    <img src="img/profile 2.webp" alt="Profile Photo" class="projects__card-img-1">
+                                    <img src="img/profile 3.webp" alt="Profile Photo" class="projects__card-img-2">
+                                    <div class="projects__card-add"><ion-icon name="add-outline" class="icon-plus-2"></ion-icon></div>
+                                    <a href="#" class="btn-1">2 Days Left</a>
+                                </div>
+                            </div>
+                            <div class="projects__card card-2">
+                                <div class="projects__card-top">
+                                    <p class="projects__card-date">July 5,2020</p>
+                                    <ion-icon class="icon-card" name="ellipsis-vertical-outline"></ion-icon>
+                                </div>
+                                <div class="projects__card-middle">
+                                    <p class="projects__card-name">Mobile App</p>
+                                    <p class="projects__card-type">Shopping</p>
+                                </div>
+                                <div class="projects__card-progress">                                        
+                                    <p class="projects__card-pro">Progress</p>
+                                    <div class="projects__card-probar"><div class="orangeC"></div></div>
+                                    <p class="projects__card-per">30%</p>
+                                </div>
+                                <div class="projects__card-bottom">
+                                    <img src="img/profile 2.webp" alt="Profile Photo" class="projects__card-img-1">
+                                    <img src="img/profile 3.webp" alt="Profile Photo" class="projects__card-img-2">
+                                    <div class="projects__card-add-2"><ion-icon name="add-outline" class="icon-plus-2"></ion-icon></div>
+                                    <a href="#" class="btn-2">3 week Left</a>
+                                </div>
+                            </div>
+                            <div class="projects__card card-3">
+                                <div class="projects__card-top">
+                                    <p class="projects__card-date">July 10,2020</p>
+                                    <ion-icon class="icon-card" name="ellipsis-vertical-outline"></ion-icon>
+                                </div>
+                                <div class="projects__card-middle">
+                                    <p class="projects__card-name">Dashboard</p>
+                                    <p class="projects__card-type">Medical</p>
+                                </div>
+                                <div class="projects__card-progress">                                        
+                                    <p class="projects__card-pro">Progress</p>
+                                    <div class="projects__card-probar"><div class="greenC"></div></div>
+                                    <p class="projects__card-per">50%</p>
+                                </div>
+                                <div class="projects__card-bottom">
+                                    <img src="img/profile 2.webp" alt="Profile Photo" class="projects__card-img-1">
+                                    <img src="img/profile 3.webp" alt="Profile Photo" class="projects__card-img-2">
+                                    <div class="projects__card-add-3"><ion-icon name="add-outline" class="icon-plus-2"></ion-icon></div>
+                                    <a href="#" class="btn-3">2 week Left</a>
+                                </div>
+                            </div>
+                            <div class="projects__card card-4">
+                                <div class="projects__card-top">
+                                    <p class="projects__card-date">July 15,2020</p>
+                                    <ion-icon class="icon-card" name="ellipsis-vertical-outline"></ion-icon>
+                                </div>
+                                <div class="projects__card-middle">
+                                    <p class="projects__card-name">Web Designing</p>
+                                    <p class="projects__card-type">Wireframing</p>
+                                </div>
+                                <div class="projects__card-progress">                                        
+                                    <p class="projects__card-pro">Progress</p>
+                                    <div class="projects__card-probar"><div class="pinkC"></div></div>
+                                    <p class="projects__card-per">20%</p>
+                                </div>
+                                <div class="projects__card-bottom">
+                                    <img src="img/profile 2.webp" alt="Profile Photo" class="projects__card-img-1">
+                                    <img src="img/profile 3.webp" alt="Profile Photo" class="projects__card-img-2">
+                                    <div class="projects__card-add-4"><ion-icon name="add-outline" class="icon-plus-2"></ion-icon></div>
+                                    <a href="#" class="btn-4">3 week Left</a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </section>
+
+                <section class="clients">
+                    <div class="clients__top">
+                        <p class="clients__top-title">Client Messages</p>
+                        <div class="clients__top-icons">
+                            <ion-icon name="search-outline" class="clients__top-icons-search"></ion-icon>
+                            <ion-icon name="ellipsis-vertical-outline" class="clients__top-icons-menu"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="clients__msg">
+                        <div class="clients__msg-box">
+                            <img src="img/profile 1.webp" alt="Client Photo" class="clients__photo">
+                            <div class="clients__info">
+                                <div class="clients__info-top">
+                                    <h3 class="clients__name">David</h3>
+                                    <ion-icon class="icon-star" name="star-outline"></ion-icon>
+                                </div>
+                                <div class="clients__info-msg">Hey tell me about progress of project? Waiting for your response</div>
+                                <div class="clients__info-bot">21 July</div>
+                            </div>
+                        </div>
+                        <div class="clients__msg-box">
+                            <img src="img/profile 6.webp" alt="Client Photo" class="clients__photo">
+                            <div class="clients__info">
+                                <div class="clients__info-top">
+                                    <h3 class="clients__name">Stephanie</h3>
+                                    <ion-icon class="icon-star" name="star-outline"></ion-icon>
+                                </div>
+                                <div class="clients__info-msg">I got your forst assignment. It was quite good You can start work on next assignment</div>
+                                <div class="clients__info-bot">19 July</div>
+                            </div>
+                        </div>
+                        <div class="clients__msg-box">
+                            <img src="img/profile 7.webp" alt="Client Photo" class="clients__photo">
+                            <div class="clients__info">
+                                <div class="clients__info-top">
+                                    <h3 class="clients__name">William</h3>
+                                    <ion-icon class="icon-star" name="star-outline"></ion-icon>
+                                </div>
+                                <div class="clients__info-msg">I want some changes in previous work you sent me. Waiting for your reply.</div>
+                                <div class="clients__info-bot">17 July</div>
+                            </div>
+                        </div>
+                        <div class="clients__msg-box">
+                            <img src="img/profile 3.webp" alt="Client Photo" class="clients__photo">
+                            <div class="clients__info">
+                                <div class="clients__info-top">
+                                    <h3 class="clients__name">Alona</h3>
+                                    <ion-icon class="icon-star" name="star-outline"></ion-icon>
+                                </div>
+                                <div class="clients__info-msg">I am really impressed from your work Keep doing great work</div>
+                                <div class="clients__info-bot">15 July</div>
+                            </div>
+                        </div>
+                        <div class="clients__msg-box">
+                            <img src="img/profile 2.webp" alt="Client Photo" class="clients__photo">
+                            <div class="clients__info">
+                                <div class="clients__info-top">
+                                    <h3 class="clients__name">Hira</h3>
+                                    <ion-icon class="icon-star" name="star-outline"></ion-icon>
+                                </div>
+                                <div class="clients__info-msg">When you redesign of app? Previous project was perfect</div>
+                                <div class="clients__info-bot">21 July</div>
+                            </div>
+                        </div>
+                        <div class="clients__msg-box">
+                            <img src="img/profile 4.webp" alt="Client Photo" class="clients__photo">
+                            <div class="clients__info">
+                                <div class="clients__info-top">
+                                    <h3 class="clients__name">Ghulam</h3>
+                                    <ion-icon class="icon-star" name="star-outline"></ion-icon>
+                                </div>
+                                <div class="clients__info-msg">Hey tell me about progress of project? Waiting for your response</div>
+                                <div class="clients__info-bot">21 July</div>
+                            </div>
+                        </div>
+                        <div class="clients__msg-box">
+                            <img src="img/profile 1.webp" alt="Client Photo" class="clients__photo">
+                            <div class="clients__info">
+                                <div class="clients__info-top">
+                                    <h3 class="clients__name">David</h3>
+                                    <ion-icon class="icon-star" name="star-outline"></ion-icon>
+                                </div>
+                                <div class="clients__info-msg">Hey tell me about progress of project? Waiting for your response</div>
+                                <div class="clients__info-bot">21 July</div>
+                            </div>
+                        </div>
+                        <div class="clients__msg-box">
+                            <img src="img/profile 1.webp" alt="Client Photo" class="clients__photo">
+                            <div class="clients__info">
+                                <div class="clients__info-top">
+                                    <h3 class="clients__name">David</h3>
+                                    <ion-icon class="icon-star" name="star-outline"></ion-icon>
+                                </div>
+                                <div class="clients__info-msg">Hey tell me about progress of project? Waiting for your response</div>
+                                <div class="clients__info-bot">21 July</div>
+                            </div>
+                        </div>
+                        <div class="clients__msg-box">
+                            <img src="img/profile 1.webp" alt="Client Photo" class="clients__photo">
+                            <div class="clients__info">
+                                <div class="clients__info-top">
+                                    <h3 class="clients__name">David</h3>
+                                    <ion-icon class="icon-star" name="star-outline"></ion-icon>
+                                </div>
+                                <div class="clients__info-msg">Hey tell me about progress of project? Waiting for your response</div>
+                                <div class="clients__info-bot">21 July</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </section>
+            </main>
+        </div>
+    </body>
+</html>
